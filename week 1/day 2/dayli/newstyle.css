@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+	font-family:'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+.barre{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #A698D8;
+	top: 0;
+}
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+p{
+	margin: 10px;
+	font-size: 20px;
+}
+body{
+	background-image: url(https://gh.cdn.sewest.net/assets/ident/news/e80b73da/Avenger_Blog_IronMan_Imagery4-ho31fqax6.jpg?quality=65);
+	background-size: cover;
+	background-position: center;
+	background-position: top;
+	background-repeat: no-repeat;
+
+
+}
+h1{
+	font-size: 200%;
+	margin-top: 20%;
+}
+.para{
+	width: 50%;
+}
+a{
+	text-decoration: none; 
+}
+
+
+/*in line blcok pour les colle c est comme flex 
+float left 
+align == linverse 
+justify content = sens du flex 
+align self == pour un element 
+flex grow == agrandire l element est prend tt la place
+
+grid - template - rows 
+grid - template - colun
+1fr
+repeat ( 2,1fr) 2 fr 
+
+grid-colun-  gap=== place entre les ligne start/span end  */

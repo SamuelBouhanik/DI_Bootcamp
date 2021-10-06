@@ -1,0 +1,43 @@
+.main{
+	display: flex;
+	justify-content: space-around;
+	height: 500px
+
+}
+.right{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	width: 100px;
+	height: 100px;
+	grid-row-gap: 10px;
+}
+div{
+	background-color: yellow;
+	border: 5px solid black;
+	height: 100px;
+}
+.bot{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	width: 100px;
+	height: 100px;
+	grid-row-gap: 10px;
+}
+.milieu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 10px;
+	width: 500px;
+	height: 100px;
+	margin-top: 180px;
+}
+
+.T{
+	background-color: yellow;
+	border: 5px solid black;
+	grid-row:1/span 5 ;
+
+}

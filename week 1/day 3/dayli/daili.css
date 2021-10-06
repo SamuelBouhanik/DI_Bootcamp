@@ -1,0 +1,21 @@
+section{
+	border: 5px solid black;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.marron{
+	background-color: brown;
+}
+.saumon{
+	background-color: pink;
+}
+.orange{
+	background-color: orange;
+}
+.divv{
+background-size: 10px;
+width: 50px;
+padding-right:20px ;
+}
