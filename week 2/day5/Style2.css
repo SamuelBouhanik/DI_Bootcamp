@@ -1,0 +1,74 @@
+body{
+	margin-left: 7vw;
+	margin-right: 7vw;
+	margin-top:4vw ;
+}
+section{
+	border: 3px solid black;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-areas:
+	'seven eight nine plus' 
+	'four five six minus'
+	'one two three time'
+	'zero zero point divise'
+	'visual clear clear equal';
+	height: 50vh;
+	grid-gap: 10px 10px;
+
+}
+.point{
+	grid-area:point;
+}
+.visual{
+	grid-area:visual;
+}
+.zero{
+	grid-area:zero ;
+}
+.one{
+	grid-area:one ;
+}
+.two{
+	grid-area:two ;
+}
+.three{
+	grid-area:three ;
+}
+.four{
+	grid-area:four ;
+}
+.five{
+	grid-area:five ;
+}
+.six{
+	grid-area:six ;
+}
+.seven{
+	grid-area:seven ;
+}
+.eight{
+	grid-area:eight ;
+}
+.nine{
+	grid-area:nine ;
+}
+.plus{
+	grid-area:plus ;
+}
+.minus{
+	grid-area:minus ;
+}
+.divise{
+	grid-area:divise ;
+}
+.time{
+	grid-area:time ;
+}
+.clear{
+	grid-area:clear ;
+}
+.equal{
+	grid-area:equal ;
+}
