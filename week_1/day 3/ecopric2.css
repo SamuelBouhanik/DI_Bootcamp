@@ -4,8 +4,8 @@ body{
 }
 h1{
 	color: white;
-text-align: center;
-font-size: 200%;
+	text-align: center;
+	font-size: 200%;
 }
 .milieu{
 	display: flex;
@@ -51,5 +51,5 @@ body{
 	background-size: cover;
 }
 .divv{
-	color: white;
+	color:#D4CFE8;
 }
