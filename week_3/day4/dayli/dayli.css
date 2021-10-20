@@ -1,0 +1,56 @@
+*{
+	font-family: gotham-rounded,helvetica neue, helvetica;
+}
+
+body {
+
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.myForm {
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: black;
+}
+
+input {
+	width: 350px;
+	padding: 10px 50px 10px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: none;
+
+	box-sizing: border-box;
+}
+
+
+
+#submit {
+	color: skyblue;
+}
+
+.listTasks {
+	text-align: center; 
+	font-size: 20px;
+	background-color: white;
+	margin-left: 30vw ;
+	width: 40vw;
+
+}
+p{
+	padding :10px;
+	border: 3px solid #222;
+	width: 30vw;
+	margin-left: 4vw;
+	background-color: #A698D8
+}
+.dov{
+	
+}
+.in{
+	padding :10px;
+}
+
